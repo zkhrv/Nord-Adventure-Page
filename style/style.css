@@ -1,0 +1,811 @@
+body {
+    background-color: #fff;
+    margin: 0 auto;
+}
+header button {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #0C3044;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+header {
+    position: relative;
+    height: 112px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    background: #D9D9E9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.container_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 34px;
+
+    position: relative;
+    height: 80.05px;
+    margin: 0 auto;
+    margin-left: 321px;
+    margin-right: 321px;
+    top: 16px;
+}
+.item_1 img{
+    top: 28.02px;
+    width: 265.19px;
+    height: 80.05px;
+}
+.item_6 {
+    width: 56px;
+    height: 56px;
+    left: 1540.19px;
+    top: 28.02px;
+
+    background-image: url('/image/user\ in.svg');
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+.container_img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.container_img img {
+    display: block;
+    max-width: 1920px;
+    max-height: 680px;
+}
+heroimage {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+}
+.hero-image {
+    background-image: url('/image/1.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    flex-direction: row;
+    background-size: contain;
+    height: 680px;
+    width: 1920px;
+    background-size: cover;
+}
+.hero-image span1 {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    width: 197.91px;
+    height: 49px;
+    margin-left: 315px;
+    top: 49px;
+    font-size: 40px;
+    line-height: 49px;
+    color: #D9D9E9;
+}
+.hero-image p {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    margin-left: 315px;
+    top: 30px;
+    height: 4px;
+    width: 1290px;
+    background: #D9D9E9;
+    border-radius: 1px;
+}
+.hero-image button {
+    position: relative;
+    height: 48px;
+    width: 348px;
+    left: 1009px;
+    top: 372px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #D9D9E9;
+    background: #179DC2;
+    border-radius: 14.9677px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.container_button {
+    position: relative;
+    top: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 373px;
+    right: 226px;
+}
+[class^= "container_button"] > button 
+{
+    top: 0px;
+    min-width: 25px;
+    width: 48px;
+    height: 8px;
+    background: rgba(241, 134, 50, 0.5);
+    border-radius: 5px;
+
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+button.selected {
+    background: #F18632;
+}
+.text1-hero span,
+.text2-hero span,
+.text3-hero span,
+.text4-hero span {
+    position: relative;
+    width: 342px;
+    height: 332px;
+    top: 42px;
+    left: 20px;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+.text1-hero h,
+.text2-hero h,
+.text3-hero h,
+.text4-hero h {
+    position: relative;
+    height: 246px;
+    width: 636px;
+    left: 0px;
+    right: 99px;
+    top: 42px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+}
+.text1-hero,
+.text2-hero,
+.text3-hero,
+.text4-hero {
+    margin: 0px auto 0px;
+    max-width: 1290px;
+    max-height: 416px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 416px;
+    background: rgba(217, 217, 233, 0.3);
+    border-radius: 20px;
+    grid-template-areas: 
+    "span" "h";
+}
+.text1-hero,
+.text2-hero,
+.text3-hero,
+.text4-hero {
+    display: none;
+}
+.text1-hero.active,
+.text2-hero.active,
+.text3-hero.active,
+.text4-hero.active {
+    display: grid;
+}
+.hero-image.image1 {
+    background-image: url('/image/1.png');
+}
+  
+.hero-image.image2 {
+    background-image: url('/image/2.png');
+}
+
+.hero-image.image3 {
+  background-image: url('/image/3.png');
+}
+
+.hero-image.image4 {
+  background-image: url('/image/4.png');
+}
+.container_main .item_1 .button_con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container_main .item_1 button {
+    position: relative;
+    margin: 0 auto;
+    width: 416px;
+    height: 40px;
+    margin-top: 32px;
+
+    min-width: 244px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #D9D9E9;
+    background-color: #179DC2;
+    border-radius: 15px;
+
+    border: none;
+    cursor: pointer;
+}
+.container_main .item_1 span {
+    margin: 24px auto 40px;
+    max-width: 1076px;
+    margin-bottom: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 61px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    grid-row-gap: 8px;
+    text-align: center;
+
+    color: #0C3044;
+}
+.container_main .item_1 p {
+    position: relative;
+    margin: 0px auto 0px;
+    max-width: 632px;
+    margin-bottom: 56px;
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4px;
+
+    background: #D9D9E9;
+    border-radius: 2px;
+}
+.container_main .item_2 {
+    position: relative;
+    margin: 56px auto 40px;
+    justify-content: center;
+    margin-bottom: 56px;
+    display: grid;
+    grid-template-columns: 632px 632px;
+    grid-column-gap: 40px;
+    grid-row-gap: 32px;
+    
+    grid-template-areas:
+    "div1 div2"
+    "div1 div3" ;
+}
+.container_main .item_2 > div1,
+.container_main .item_2 > div2,
+.container_main .item_2 > div3
+{
+    background: #D9D9E9;
+    border-radius: 20px;
+}
+.container_main .item_2 > div1 {
+    grid-area: div1;
+    height: 808px;
+}
+    
+.container_main .item_2 > div2 {
+    grid-area: div2;
+    height: 384px;
+}
+    
+.container_main .item_2 > div3 {
+    grid-area: div3;
+    height: 384px;
+}
+.container_main .item_2 span {
+    position: relative;
+    margin-left: 18px;
+    margin-right: 139px;
+    top: 24px;
+    margin: 24px 18px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    
+    color: #0C3044;
+}
+.container_main .item_2 p {
+    position: relative;
+    margin-left: 18px;
+    margin-right: 139px;
+    top: 0px;
+    margin-bottom: 15px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+
+    color: #0C3044;
+}
+.container_main .item_3 span 
+{
+    margin: 56px auto 40px;
+    max-width: 1076px;
+    margin-bottom: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 49px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    grid-row-gap: 4px;
+    text-align: center;
+
+    color: #0C3044;
+}
+.container_main .item_3 p {
+    position: relative;
+    margin: 0px auto 0px;
+    max-width: 632px;
+    margin-bottom: 56px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4px;
+
+    background: #D9D9E9;
+    border-radius: 2px;
+}
+.SaleContainer {
+    position: relative;
+    margin: 56px auto 40px;
+    max-width: 1304px;
+    margin-bottom: 56px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 384px 384px;
+    grid-column-gap: 40px;
+    grid-row-gap: 32px;
+    grid-template-areas:
+      "div1 div2"
+      "div3 div4";
+}
+.SaleContainer > div1,
+.SaleContainer > div2,
+.SaleContainer > div3,
+.SaleContainer > div4 {
+    background: #D9D9E9;
+    border-radius: 16px;
+}
+.SaleContainer div1 button,
+.SaleContainer div2 button,
+.SaleContainer div3 button,
+.SaleContainer div4 button {
+    position: relative;
+    width: 192px;
+    height: 40px;
+    left: 392px;
+    top: -105px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    justify-content: center;
+
+    color: #0C3044;
+    background-color: #179DC2;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.SaleContainer div2 p1 {
+    position: relative;
+    width: 228px;
+    height: 216px;
+    left: 190px;
+    top: -350px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-indent: 16px;
+
+    color: #0C3044;
+}
+.SaleContainer div3 p1 {
+    position: relative;
+    width: 228px;
+    height: 216px;
+    left: 190px;
+    top: -350px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-indent: 16px;
+
+    color: #0C3044;
+}
+.SaleContainer div2 p2 {
+    position: relative;
+    width: 228px;
+    height: 216px;
+    left: 125px;
+    top: -280px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-indent: 16px;
+
+    color: #0C3044;
+}
+.SaleContainer div3 p2 {
+    position: relative;
+    width: 228px;
+    height: 216px;
+    left: 125px;
+    top: -280px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-indent: 16px;
+
+    color: #0C3044;
+}
+.SaleContainer div2 p3 {
+    position: relative;
+    width: 222px;
+    height: 128px;
+    left: 388px;
+    top: -270px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+
+
+    color: #0C3044;
+}
+.SaleContainer div3 p3 {
+    position: relative;
+    width: 220px;
+    height: 116px;
+    left: 388px;
+    top: -270px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+
+    color: #0C3044;
+}
+.SaleContainer div1 div,
+.SaleContainer div2 div,
+.SaleContainer div3 div,
+.SaleContainer div4 div {
+    width: 136px;
+    height: 37px;
+    background: #F18632;
+    border-radius: 10px;
+}
+.SaleContainer div1 div h1,
+.SaleContainer div4 div h1,
+.SaleContainer div2 div h1,
+.SaleContainer div3 div h1 {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    color: #0C3044;
+}
+.SaleContainer div1 div {
+    position: relative;
+    left: 420px;
+    top: -386px;
+}
+.SaleContainer div2 div {
+    position: relative;
+    left: 420px;
+    top: -386px;
+}
+.SaleContainer div3 div {
+    position: relative;
+    left: 420px;
+    top: -386px;
+}
+.SaleContainer div4 div {
+    position: relative;
+    left: 420px;
+    top: -386px;
+}
+.SaleContainer div1 p1,
+.SaleContainer div4 p1 {
+    width: 182px;
+    height: 35px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-indent: 16px;
+
+    color: #0C3044;
+}
+.SaleContainer div1 p1 {
+    position: relative;
+    left: 189px;
+    top: -370px;
+}
+.SaleContainer div4 p1 {
+    position: relative;
+    left: 189px;
+    top: -370px;
+}
+.SaleContainer div1 p2,
+.SaleContainer div4 p2 {
+    width: 182px;
+    height: 35px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 16px;
+    text-decoration-line: line-through;
+
+    color: #0C3044;
+}
+.SaleContainer div1 p2 {
+    position: relative;
+    left: 40px;
+    top: -330px;
+}
+.SaleContainer div4 p2 {
+    position: relative;
+    left: 110px;
+    top: -330px;
+}
+.SaleContainer div1 p3,
+.SaleContainer div4 p3 {
+    width: 182px;
+    height: 29px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 16px;
+
+    color: #0C3044;
+}
+.SaleContainer div1 p3 {
+    position: relative;
+    left: -70px;
+    top: -290px;
+}
+.SaleContainer div4 p3 {
+    position: relative;
+    left: -30px;
+    top: -290px;
+}
+.SaleContainer div1 p4, 
+.SaleContainer div4 p4 {
+    width: 222px;
+    height: 128px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    line-height: 2;
+
+    color: #0C3044;
+}
+.SaleContainer div1 p4 {
+    position: relative;
+    left: 388px;
+    top: -290px;
+}
+.SaleContainer div4 p4 {
+    position: relative;
+    left: 388px;
+    top: -290px;
+} 
+
+main .item_4 span {
+    margin: 56px auto 40px;
+    max-width: 1076px;
+    margin-bottom: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 61px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    grid-row-gap: 8px;
+    text-align: center;
+
+    color: #0C3044;
+}
+main .item_4 p {
+    position: relative;
+    margin: 0px auto 0px;
+    max-width: 632px;
+    margin-bottom: 56px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4px;
+
+    background: #D9D9E9;
+    border-radius: px;
+}
+main .FormContainer .item_1 input,
+main .FormContainer .item_5 input,
+main .FormContainer .item_3 input {
+    width: 306px;
+    height: 32px;
+
+    background: #D9D9E9;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+main .FormContainer {
+    position: relative;
+    margin: 0px auto 0px;
+    max-width: 1076px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    display: grid;
+    gap: 73px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 32px;
+}
+.main .FormContainer .item_1 {
+    grid-area: item_1;
+}
+
+.main .FormContainer .item_5 {
+    grid-area: item_5;
+}
+
+.main .FormContainer .item_3 {
+    grid-area: item_3;
+}
+main .item_4 button {
+    position: relative;
+    margin: 0px auto 0px;
+    max-width: 196px;
+    max-height: 32px;
+    margin-bottom: 88px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 196px;
+    grid-template-rows: 32px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    justify-content: center;
+
+    background: #179DC2;
+    border-radius: 10px;
+    color: #D9D9E9;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+}
+footer span {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #0C3044;
+}
+footer p {
+    height: 2px;
+    margin-bottom: 0px;
+    background: #0C3044;
+    border-radius: 1px;
+}
+footer button {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 16px;
+
+    color: #0C3044;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+footer {
+    position: relative;
+    height: 224px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #D9D9E9;
+}
+.container_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 134px;
+    position: relative;
+    height: 195px;
+    margin-left: 312px;
+    margin-right: 752px;
+    top: calc(50% - 195px/2 - 0.5px);
+}
+footer .item_4 img {
+    position: relative;
+    width: 267px;
+    height: 80px;
+    left: 70%;
+    right: 17.09%;
+    top: 105px;
+    bottom: 7.12%;
+}
